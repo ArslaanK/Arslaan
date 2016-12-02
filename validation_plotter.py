@@ -11,14 +11,9 @@ Created on Sun Oct 23 18:10:24 2016
 """
 # In[]:
 #------------Load Python Modules--------------------#
-#--Plotting Library
 import matplotlib.pyplot as plt
-#--Easy File read/write Library
 import fileinput
-#--Dates/times
 import datetime
-#--Pandas = data anlyasis library
-#--------------------------------------------pd?
 import pandas as pd
 import os
 import requests
@@ -26,15 +21,14 @@ from scipy.interpolate import interp1d
 
 # In[]:
 #------------------------------------User Inputs
-root_dir = r'C:\Users\student.W7JF4Z7V1\Desktop\Arslaan\SMS\ADCIRC\Arslaan_database\FEMA_R3_Joaquin_RUN_20162110\Output'
 
-adcirc_file = 'WLFort63.txt'
+root_dir = r'C:\Users\student.W7JF4Z7V1\Desktop\Arslaan ADCSWAN\Output\Hstart_Mfinal'
 
-start, freq = "09-2015-20 19:00","3600s" #---Date Format: %m-%Y-%d %H:%M
+adcirc_file = 'fort.61'
 
-nodes = {'10':{'8571421':[]},'31':{'8632200':[]},'26':{'8631044':[]},'38':{'8638863':[]}}
-#
-#38	8638863
+start, freq = "09-2015-20 18:06","360s" #---Date Format: %m-%Y-%d %H:%M
+
+nodes = {'38':{'8638863':[]},'27':{'8632200':[]},'31':{'8636580':[]}}
 
 noaa_time_step = '6T'
 
@@ -106,22 +100,24 @@ for n in nodes:
         print(g,'No Data')      
      
 idx = pd.date_range(first,periods = len(noaa.index), freq=noaa_time_step)   
-noaa = noaa.set_index(idx)  
-
-##################################--MAKE CHANGES HERE--######################
+noaa = noaa.set_index(idx)   
+    
+##################################--MAKE CHANGES HERE--######################   #, 'oooo':3
 #---Instructions:
 
 #-For each station, enter the datum shift value
-datum_dict = {'8632200':0,  '8571421':0,  '8638863': 0, '8631044':0, 'oooo':0}
+datum_dict = {'8632200':0.146,'8638863':0.075,'8636580':0.073}
 
+adcirc = pd.DataFrame()
+
+df = noaa.merge(adcirc, how='outer', left_index=True, right_index=True)
 
 for key in datum_dict: 
     if key in noaa:
-        df[key] = df[key]+datum_dict[key]
+        df[key] = df[key]-datum_dict[key]
     else:
         print('Key not found: ',key)
-     
-        
+             
 # In[]:
 #--------------------------Create ADCIRC DataFrame
 
@@ -138,7 +134,7 @@ adcirc = adcirc.set_index(adc_idx)
 # In[]:
 #-------------------------Join ADCIRC & NOAA Dataframes, Resample ADCIRC values
 
-df = noaa.merge(adcirc, how='outer', left_index=True, right_index=True)
+df = df.merge(adcirc, how='outer', left_index=True, right_index=True)
 
 for n in nodes:
     df[n] = df[n].interpolate()
@@ -149,16 +145,10 @@ for n in nodes:
  
 for n in nodes:
     for key in nodes[n]:
-       df.plot(x = df.index, y = [n,key], color = ['b','r'])
+       df.plot(x = df.index, y = [n,key])
        plt.title(gages[key])
        plt.grid()
        print('\nPlotting Adcirc Station {} for gage {}, {}:'.format(n,key, gages[key]))  
-
-        
-
-
-
-
 
         
 
