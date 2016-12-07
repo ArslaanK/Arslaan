@@ -1,0 +1,589 @@
+FEMA_R3_hStart                           ! 32 CHARACTER ALPHANUMERIC RUN DESCRIPTION
+femaR3                                   ! 24 CHARACTER ALPHANUMERIC RUN IDENTIFICATION
+1                                        ! NFOVER - NONFATAL ERROR OVERRIDE OPTION
+0                                        ! NABOUT - ABREVIATED OUTPUT OPTION PARAMETER
+1                                        ! NSCREEN - OUTPUT TO UNIT 6 PARAMETER
+0                                        ! IHOT - HOT START OPTION PARAMETER
+2                                        ! ICS - COORDINATE SYSTEM OPTION PARAMETER
+111112                                   ! IM - MODEL RUN TYPE: 0,10,20,30 = 2DDI, 1,11,21,31 = 3D(VS), 2 = 3D(DSS)
+1                                        ! NOLIBF - NONLINEAR BOTTOM FRICTION OPTION
+0                                        ! NOLIFA - OPTION TO INCLUDE FINITE AMPLITUDE TERMS
+0                                        ! NOLICA - OPTION TO INCLUDE CONVECTIVE ACCELERATION TERMS
+0                                        ! NOLICAT - OPTION TO CONSIDER TIME DERIVATIVE OF CONV ACC TERMS
+0                                        ! NWP - Number of nodal attributes.
+0                                        ! NCOR - VARIABLE CORIOLIS IN SPACE OPTION PARAMETER
+1                                        ! NTIP - TIDAL POTENTIAL OPTION PARAMETER
+0                                        ! NWS - WIND STRESS AND BAROMETRIC PRESSURE OPTION PARAMETER
+1                                        ! NRAMP - RAMP FUNCTION OPTION
+9.80665                                  ! G - ACCELERATION DUE TO GRAVITY - DETERMINES UNITS
+3.00000                                  ! TAU0 - WEIGHTING FACTOR IN GWCE
+1.00000                                  ! DT - TIME STEP (IN SECONDS)
+0.00000                                  ! STATIM - STARTING SIMULATION TIME IN DAYS
+0.00000                                  ! REFTIME - REFERENCE TIME (IN DAYS) FOR NODAL FACTORS AND EQUILIBRIUM ARGS
+14.00000                                 ! RNDAY - TOTAL LENGTH OF SIMULATION (IN DAYS)
+2.00000                                  ! DRAMP - DURATION OF RAMP FUNCTION (IN DAYS)
+0.000000 1.000000 0.000000               ! TIME WEIGHTING FACTORS FOR THE GWCE EQUATION
+0.050000                                 ! H0 - MINIMUM WATER DEPTH
+0.000000 0.000000                        ! SLAM0, SFEA0 - LONGITUDE AND LATITUDE ON WHICH THE CPP COORDINATE PROJECTION IS CENTERED
+0.002500                                 ! FFACTOR - 2DDI BOTTOM FRICTION COEFFICIENT
+-4.000000                                ! ESLM - SPATIALLY CONSTANT HORIZONTAL EDDY VISCOSITY FOR THE MOMENTUM EQUATIONS
+0.000100                                 ! CORI - CONSTANT CORIOLIS COEFFICIENT
+5                                        ! NTIF - NUMBER OF TIDAL POTENTIAL CONSTITUENTS
+K1                                       ! TIPOTAG - NAME OF TIDAL POTENTIAL CONSTITUENT
+0.14156500 0.000072921158358 0.736 0.882 165.836   ! TPK, AMIGT, ETRF, FFT, FACET - CONSTITUENT PROPERTIES
+M2                                       ! TIPOTAG - NAME OF TIDAL POTENTIAL CONSTITUENT
+0.46417473 0.000140518902509 0.693 1.038 345.398   ! TPK, AMIGT, ETRF, FFT, FACET - CONSTITUENT PROPERTIES
+N2                                       ! TIPOTAG - NAME OF TIDAL POTENTIAL CONSTITUENT
+0.10312395 0.000137879699487 0.693 1.038 263.949   ! TPK, AMIGT, ETRF, FFT, FACET - CONSTITUENT PROPERTIES
+O1                                       ! TIPOTAG - NAME OF TIDAL POTENTIAL CONSTITUENT
+0.07706809 0.000067597744151 0.695 0.806 179.382   ! TPK, AMIGT, ETRF, FFT, FACET - CONSTITUENT PROPERTIES
+S2                                       ! TIPOTAG - NAME OF TIDAL POTENTIAL CONSTITUENT
+0.15122036 0.000145444104333 0.693 1.000 180.000   ! TPK, AMIGT, ETRF, FFT, FACET - CONSTITUENT PROPERTIES
+5                                        ! NBFR - NUMBER OF PERIODIC FORCING FREQUENCIES ON ELEVATION SPECIFIED BOUNDARIES
+K1                                       ! BOUNTAG - FORCING CONSTITUENT NAME
+0.000072921158358 0.882 165.836
+M2                                       ! BOUNTAG - FORCING CONSTITUENT NAME
+0.000140518902509 1.038 345.398
+N2                                       ! BOUNTAG - FORCING CONSTITUENT NAME
+0.000137879699487 1.038 263.949
+O1                                       ! BOUNTAG - FORCING CONSTITUENT NAME
+0.000067597744151 0.806 179.382
+S2                                       ! BOUNTAG - FORCING CONSTITUENT NAME
+0.000145444104333 1.000 180.000
+K1                                       ! EALPHA - FORCING CONSTITUENT NAME AGAIN
+0.095380 236.608                         ! EMO, EFA
+0.095382 236.608                         ! EMO, EFA
+0.095384 236.608                         ! EMO, EFA
+0.095387 236.608                         ! EMO, EFA
+0.093944 236.317                         ! EMO, EFA
+0.092335 235.980                         ! EMO, EFA
+0.091531 235.808                         ! EMO, EFA
+0.090731 235.663                         ! EMO, EFA
+0.089132 235.365                         ! EMO, EFA
+0.087631 235.062                         ! EMO, EFA
+0.086881 234.802                         ! EMO, EFA
+0.086175 234.555                         ! EMO, EFA
+0.085594 234.314                         ! EMO, EFA
+0.085086 234.076                         ! EMO, EFA
+0.084584 233.832                         ! EMO, EFA
+0.084138 233.560                         ! EMO, EFA
+0.083693 233.284                         ! EMO, EFA
+0.082758 232.737                         ! EMO, EFA
+0.081904 232.262                         ! EMO, EFA
+0.081007 231.789                         ! EMO, EFA
+0.080055 231.315                         ! EMO, EFA
+0.079070 230.805                         ! EMO, EFA
+0.078221 230.348                         ! EMO, EFA
+0.077322 229.850                         ! EMO, EFA
+0.076420 229.331                         ! EMO, EFA
+0.075558 228.770                         ! EMO, EFA
+0.074627 228.160                         ! EMO, EFA
+0.073735 227.584                         ! EMO, EFA
+0.072854 226.969                         ! EMO, EFA
+0.072003 226.335                         ! EMO, EFA
+0.071237 225.697                         ! EMO, EFA
+0.070436 225.019                         ! EMO, EFA
+0.069624 224.309                         ! EMO, EFA
+0.068861 223.552                         ! EMO, EFA
+0.068103 222.792                         ! EMO, EFA
+0.067350 222.028                         ! EMO, EFA
+0.066645 221.272                         ! EMO, EFA
+0.065565 220.095                         ! EMO, EFA
+0.064358 218.726                         ! EMO, EFA
+0.062871 216.957                         ! EMO, EFA
+0.061570 215.192                         ! EMO, EFA
+0.060269 213.420                         ! EMO, EFA
+0.058880 211.298                         ! EMO, EFA
+0.057601 209.128                         ! EMO, EFA
+0.056551 207.098                         ! EMO, EFA
+0.055604 205.095                         ! EMO, EFA
+0.054546 202.566                         ! EMO, EFA
+0.053713 199.946                         ! EMO, EFA
+0.052976 197.339                         ! EMO, EFA
+0.052367 194.640                         ! EMO, EFA
+0.051992 192.104                         ! EMO, EFA
+0.051732 189.575                         ! EMO, EFA
+0.051608 187.216                         ! EMO, EFA
+0.051692 184.827                         ! EMO, EFA
+0.051859 182.447                         ! EMO, EFA
+0.052192 180.112                         ! EMO, EFA
+0.052551 178.165                         ! EMO, EFA
+0.053015 176.235                         ! EMO, EFA
+0.053461 174.732                         ! EMO, EFA
+0.053927 173.246                         ! EMO, EFA
+0.054579 171.804                         ! EMO, EFA
+0.055164 170.500                         ! EMO, EFA
+0.055948 169.160                         ! EMO, EFA
+0.056671 167.951                         ! EMO, EFA
+0.057382 166.981                         ! EMO, EFA
+0.058022 166.192                         ! EMO, EFA
+0.058364 165.829                         ! EMO, EFA
+0.058693 165.497                         ! EMO, EFA
+0.058981 165.210                         ! EMO, EFA
+0.059198 164.987                         ! EMO, EFA
+0.059476 164.758                         ! EMO, EFA
+0.059751 164.586                         ! EMO, EFA
+0.059988 164.498                         ! EMO, EFA
+0.060295 164.344                         ! EMO, EFA
+0.060551 164.185                         ! EMO, EFA
+0.060778 164.034                         ! EMO, EFA
+0.061067 163.558                         ! EMO, EFA
+0.061399 162.627                         ! EMO, EFA
+0.055705 156.643                         ! EMO, EFA
+0.050278 149.747                         ! EMO, EFA
+0.044538 138.335                         ! EMO, EFA
+0.043976 134.935                         ! EMO, EFA
+0.043769 131.899                         ! EMO, EFA
+0.043687 127.705                         ! EMO, EFA
+0.043839 123.517                         ! EMO, EFA
+0.043815 119.195                         ! EMO, EFA
+0.043649 114.464                         ! EMO, EFA
+0.043693 111.637                         ! EMO, EFA
+0.043842 108.823                         ! EMO, EFA
+0.044097 106.034                         ! EMO, EFA
+0.044455 103.284                         ! EMO, EFA
+0.044721 99.937                          ! EMO, EFA
+0.045078 96.391                          ! EMO, EFA
+0.045604 92.914                          ! EMO, EFA
+0.046294 89.529                          ! EMO, EFA
+0.047141 86.254                          ! EMO, EFA
+0.048136 83.104                          ! EMO, EFA
+0.049271 80.090                          ! EMO, EFA
+0.049315 79.983                          ! EMO, EFA
+0.049316 79.983                          ! EMO, EFA
+0.049316 79.983                          ! EMO, EFA
+0.049324 79.984                          ! EMO, EFA
+0.049331 79.984                          ! EMO, EFA
+M2                                       ! EALPHA - FORCING CONSTITUENT NAME AGAIN
+0.464175 215.036                         ! EMO, EFA
+0.464204 215.036                         ! EMO, EFA
+0.464233 215.036                         ! EMO, EFA
+0.464292 215.037                         ! EMO, EFA
+0.440580 214.682                         ! EMO, EFA
+0.414090 214.238                         ! EMO, EFA
+0.400853 213.994                         ! EMO, EFA
+0.387275 213.749                         ! EMO, EFA
+0.360147 213.203                         ! EMO, EFA
+0.334536 212.609                         ! EMO, EFA
+0.320458 212.281                         ! EMO, EFA
+0.307210 211.944                         ! EMO, EFA
+0.294228 211.705                         ! EMO, EFA
+0.281395 211.520                         ! EMO, EFA
+0.268727 211.338                         ! EMO, EFA
+0.257783 211.367                         ! EMO, EFA
+0.246839 211.400                         ! EMO, EFA
+0.227392 211.726                         ! EMO, EFA
+0.212574 212.195                         ! EMO, EFA
+0.199785 212.825                         ! EMO, EFA
+0.187664 213.484                         ! EMO, EFA
+0.175756 214.257                         ! EMO, EFA
+0.165981 215.015                         ! EMO, EFA
+0.155993 215.946                         ! EMO, EFA
+0.146129 217.023                         ! EMO, EFA
+0.138223 218.241                         ! EMO, EFA
+0.129262 219.797                         ! EMO, EFA
+0.120030 221.640                         ! EMO, EFA
+0.110780 223.794                         ! EMO, EFA
+0.101435 226.392                         ! EMO, EFA
+0.091520 229.752                         ! EMO, EFA
+0.081546 234.189                         ! EMO, EFA
+0.072012 240.013                         ! EMO, EFA
+0.064036 247.420                         ! EMO, EFA
+0.057498 256.759                         ! EMO, EFA
+0.052929 268.120                         ! EMO, EFA
+0.051166 280.567                         ! EMO, EFA
+0.053314 298.391                         ! EMO, EFA
+0.061032 314.353                         ! EMO, EFA
+0.075959 328.401                         ! EMO, EFA
+0.092380 336.750                         ! EMO, EFA
+0.109015 341.936                         ! EMO, EFA
+0.127658 345.742                         ! EMO, EFA
+0.145648 348.346                         ! EMO, EFA
+0.161264 349.997                         ! EMO, EFA
+0.176135 351.113                         ! EMO, EFA
+0.193602 352.244                         ! EMO, EFA
+0.210560 353.138                         ! EMO, EFA
+0.227174 353.777                         ! EMO, EFA
+0.242937 354.234                         ! EMO, EFA
+0.257421 354.541                         ! EMO, EFA
+0.271392 354.792                         ! EMO, EFA
+0.284429 354.937                         ! EMO, EFA
+0.297057 355.025                         ! EMO, EFA
+0.310124 355.117                         ! EMO, EFA
+0.322580 355.017                         ! EMO, EFA
+0.333406 355.012                         ! EMO, EFA
+0.343891 354.900                         ! EMO, EFA
+0.352637 354.720                         ! EMO, EFA
+0.360953 354.528                         ! EMO, EFA
+0.369160 354.234                         ! EMO, EFA
+0.376616 353.869                         ! EMO, EFA
+0.384584 353.411                         ! EMO, EFA
+0.392217 352.835                         ! EMO, EFA
+0.398737 352.310                         ! EMO, EFA
+0.405171 351.677                         ! EMO, EFA
+0.408360 351.334                         ! EMO, EFA
+0.411640 350.948                         ! EMO, EFA
+0.415056 350.522                         ! EMO, EFA
+0.418536 350.153                         ! EMO, EFA
+0.422235 349.667                         ! EMO, EFA
+0.425917 349.104                         ! EMO, EFA
+0.429554 348.490                         ! EMO, EFA
+0.433038 347.874                         ! EMO, EFA
+0.436496 347.234                         ! EMO, EFA
+0.439509 346.516                         ! EMO, EFA
+0.442419 345.721                         ! EMO, EFA
+0.444802 345.204                         ! EMO, EFA
+0.461037 345.715                         ! EMO, EFA
+0.476440 346.493                         ! EMO, EFA
+0.496860 347.445                         ! EMO, EFA
+0.501762 347.326                         ! EMO, EFA
+0.505963 347.130                         ! EMO, EFA
+0.511736 346.866                         ! EMO, EFA
+0.517520 346.609                         ! EMO, EFA
+0.521165 346.335                         ! EMO, EFA
+0.522773 346.029                         ! EMO, EFA
+0.523739 345.847                         ! EMO, EFA
+0.524711 345.666                         ! EMO, EFA
+0.525688 345.486                         ! EMO, EFA
+0.526669 345.307                         ! EMO, EFA
+0.526141 345.115                         ! EMO, EFA
+0.525042 344.918                         ! EMO, EFA
+0.523949 344.721                         ! EMO, EFA
+0.522862 344.522                         ! EMO, EFA
+0.521781 344.323                         ! EMO, EFA
+0.520707 344.123                         ! EMO, EFA
+0.519639 343.922                         ! EMO, EFA
+0.519601 343.914                         ! EMO, EFA
+0.519601 343.914                         ! EMO, EFA
+0.519602 343.914                         ! EMO, EFA
+0.519611 343.914                         ! EMO, EFA
+0.519620 343.913                         ! EMO, EFA
+N2                                       ! EALPHA - FORCING CONSTITUENT NAME AGAIN
+0.103124 199.671                         ! EMO, EFA
+0.103130 199.672                         ! EMO, EFA
+0.103136 199.672                         ! EMO, EFA
+0.103149 199.673                         ! EMO, EFA
+0.098063 199.240                         ! EMO, EFA
+0.092384 198.699                         ! EMO, EFA
+0.089548 198.403                         ! EMO, EFA
+0.086676 198.120                         ! EMO, EFA
+0.080939 197.496                         ! EMO, EFA
+0.075528 196.823                         ! EMO, EFA
+0.072572 196.450                         ! EMO, EFA
+0.069791 196.070                         ! EMO, EFA
+0.067072 195.791                         ! EMO, EFA
+0.064388 195.566                         ! EMO, EFA
+0.061738 195.339                         ! EMO, EFA
+0.059440 195.288                         ! EMO, EFA
+0.057142 195.233                         ! EMO, EFA
+0.053003 195.397                         ! EMO, EFA
+0.049840 195.702                         ! EMO, EFA
+0.047118 196.135                         ! EMO, EFA
+0.044543 196.775                         ! EMO, EFA
+0.041970 197.539                         ! EMO, EFA
+0.039820 198.291                         ! EMO, EFA
+0.037609 199.357                         ! EMO, EFA
+0.035425 200.609                         ! EMO, EFA
+0.033665 201.996                         ! EMO, EFA
+0.031684 203.706                         ! EMO, EFA
+0.029659 205.627                         ! EMO, EFA
+0.027630 207.812                         ! EMO, EFA
+0.025585 210.402                         ! EMO, EFA
+0.023424 213.713                         ! EMO, EFA
+0.021303 217.849                         ! EMO, EFA
+0.019300 222.971                         ! EMO, EFA
+0.017605 229.107                         ! EMO, EFA
+0.016153 236.504                         ! EMO, EFA
+0.015024 245.250                         ! EMO, EFA
+0.014366 254.811                         ! EMO, EFA
+0.014281 269.279                         ! EMO, EFA
+0.015234 283.953                         ! EMO, EFA
+0.017736 298.914                         ! EMO, EFA
+0.020826 308.818                         ! EMO, EFA
+0.024140 315.394                         ! EMO, EFA
+0.028019 320.484                         ! EMO, EFA
+0.031894 323.949                         ! EMO, EFA
+0.035248 326.188                         ! EMO, EFA
+0.038535 327.905                         ! EMO, EFA
+0.042338 329.483                         ! EMO, EFA
+0.046118 330.699                         ! EMO, EFA
+0.049794 331.741                         ! EMO, EFA
+0.053332 332.422                         ! EMO, EFA
+0.056559 332.940                         ! EMO, EFA
+0.059727 333.354                         ! EMO, EFA
+0.062682 333.656                         ! EMO, EFA
+0.065517 333.891                         ! EMO, EFA
+0.068466 334.056                         ! EMO, EFA
+0.071280 334.208                         ! EMO, EFA
+0.073842 334.208                         ! EMO, EFA
+0.076204 334.200                         ! EMO, EFA
+0.078241 334.064                         ! EMO, EFA
+0.080192 333.848                         ! EMO, EFA
+0.082070 333.559                         ! EMO, EFA
+0.083809 333.263                         ! EMO, EFA
+0.085629 332.773                         ! EMO, EFA
+0.087334 332.223                         ! EMO, EFA
+0.088874 331.652                         ! EMO, EFA
+0.090245 330.991                         ! EMO, EFA
+0.090954 330.629                         ! EMO, EFA
+0.091678 330.237                         ! EMO, EFA
+0.092404 329.804                         ! EMO, EFA
+0.093133 329.375                         ! EMO, EFA
+0.093904 328.863                         ! EMO, EFA
+0.094673 328.296                         ! EMO, EFA
+0.095434 327.681                         ! EMO, EFA
+0.096062 327.059                         ! EMO, EFA
+0.096696 326.305                         ! EMO, EFA
+0.097251 325.513                         ! EMO, EFA
+0.097757 324.692                         ! EMO, EFA
+0.098124 324.119                         ! EMO, EFA
+0.101392 324.909                         ! EMO, EFA
+0.104580 325.993                         ! EMO, EFA
+0.108832 327.324                         ! EMO, EFA
+0.109878 327.177                         ! EMO, EFA
+0.110781 326.927                         ! EMO, EFA
+0.112023 326.590                         ! EMO, EFA
+0.113269 326.261                         ! EMO, EFA
+0.114080 325.927                         ! EMO, EFA
+0.114481 325.571                         ! EMO, EFA
+0.114722 325.360                         ! EMO, EFA
+0.114965 325.150                         ! EMO, EFA
+0.115209 324.940                         ! EMO, EFA
+0.115455 324.732                         ! EMO, EFA
+0.115409 324.511                         ! EMO, EFA
+0.115252 324.286                         ! EMO, EFA
+0.115097 324.059                         ! EMO, EFA
+0.114944 323.833                         ! EMO, EFA
+0.114793 323.605                         ! EMO, EFA
+0.114644 323.377                         ! EMO, EFA
+0.114496 323.148                         ! EMO, EFA
+0.114491 323.140                         ! EMO, EFA
+0.114491 323.140                         ! EMO, EFA
+0.114491 323.140                         ! EMO, EFA
+0.114493 323.140                         ! EMO, EFA
+0.114495 323.139                         ! EMO, EFA
+O1                                       ! EALPHA - FORCING CONSTITUENT NAME AGAIN
+0.077068 224.916                         ! EMO, EFA
+0.077069 224.917                         ! EMO, EFA
+0.077070 224.917                         ! EMO, EFA
+0.077072 224.917                         ! EMO, EFA
+0.076068 224.621                         ! EMO, EFA
+0.074949 224.281                         ! EMO, EFA
+0.074390 224.108                         ! EMO, EFA
+0.073834 223.965                         ! EMO, EFA
+0.072725 223.675                         ! EMO, EFA
+0.071670 223.384                         ! EMO, EFA
+0.071028 223.163                         ! EMO, EFA
+0.070424 222.951                         ! EMO, EFA
+0.069836 222.800                         ! EMO, EFA
+0.069256 222.682                         ! EMO, EFA
+0.068684 222.564                         ! EMO, EFA
+0.068192 222.451                         ! EMO, EFA
+0.067701 222.336                         ! EMO, EFA
+0.066756 222.163                         ! EMO, EFA
+0.065973 221.998                         ! EMO, EFA
+0.065229 221.793                         ! EMO, EFA
+0.064539 221.590                         ! EMO, EFA
+0.063857 221.326                         ! EMO, EFA
+0.063293 221.050                         ! EMO, EFA
+0.062771 220.768                         ! EMO, EFA
+0.062263 220.478                         ! EMO, EFA
+0.061811 220.138                         ! EMO, EFA
+0.061308 219.777                         ! EMO, EFA
+0.060801 219.450                         ! EMO, EFA
+0.060247 219.086                         ! EMO, EFA
+0.059697 218.707                         ! EMO, EFA
+0.059195 218.322                         ! EMO, EFA
+0.058689 217.900                         ! EMO, EFA
+0.058183 217.458                         ! EMO, EFA
+0.057676 217.074                         ! EMO, EFA
+0.057140 216.661                         ! EMO, EFA
+0.056576 216.216                         ! EMO, EFA
+0.056063 215.770                         ! EMO, EFA
+0.055312 215.062                         ! EMO, EFA
+0.054470 214.276                         ! EMO, EFA
+0.053392 213.235                         ! EMO, EFA
+0.052398 212.221                         ! EMO, EFA
+0.051464 211.160                         ! EMO, EFA
+0.050397 209.942                         ! EMO, EFA
+0.049385 208.649                         ! EMO, EFA
+0.048472 207.467                         ! EMO, EFA
+0.047652 206.185                         ! EMO, EFA
+0.046705 204.664                         ! EMO, EFA
+0.045866 203.027                         ! EMO, EFA
+0.045051 201.391                         ! EMO, EFA
+0.044285 199.665                         ! EMO, EFA
+0.043653 197.983                         ! EMO, EFA
+0.043083 196.242                         ! EMO, EFA
+0.042634 194.549                         ! EMO, EFA
+0.042325 192.865                         ! EMO, EFA
+0.041990 191.026                         ! EMO, EFA
+0.041758 189.280                         ! EMO, EFA
+0.041702 187.650                         ! EMO, EFA
+0.041666 186.111                         ! EMO, EFA
+0.041756 184.757                         ! EMO, EFA
+0.041837 183.483                         ! EMO, EFA
+0.042082 182.204                         ! EMO, EFA
+0.042365 180.981                         ! EMO, EFA
+0.042751 179.773                         ! EMO, EFA
+0.043235 178.729                         ! EMO, EFA
+0.043709 177.907                         ! EMO, EFA
+0.044289 177.191                         ! EMO, EFA
+0.044631 176.887                         ! EMO, EFA
+0.044990 176.657                         ! EMO, EFA
+0.045352 176.512                         ! EMO, EFA
+0.045714 176.367                         ! EMO, EFA
+0.046150 176.170                         ! EMO, EFA
+0.046614 176.002                         ! EMO, EFA
+0.047082 175.914                         ! EMO, EFA
+0.047543 175.760                         ! EMO, EFA
+0.048013 175.540                         ! EMO, EFA
+0.048302 175.296                         ! EMO, EFA
+0.048076 175.155                         ! EMO, EFA
+0.047273 175.276                         ! EMO, EFA
+0.036033 177.800                         ! EMO, EFA
+0.025045 182.531                         ! EMO, EFA
+0.011422 202.584                         ! EMO, EFA
+0.008174 213.869                         ! EMO, EFA
+0.005711 232.392                         ! EMO, EFA
+0.004602 283.131                         ! EMO, EFA
+0.007127 321.478                         ! EMO, EFA
+0.011236 333.430                         ! EMO, EFA
+0.015956 336.789                         ! EMO, EFA
+0.018787 337.987                         ! EMO, EFA
+0.021623 338.872                         ! EMO, EFA
+0.024464 339.551                         ! EMO, EFA
+0.027307 340.089                         ! EMO, EFA
+0.030603 339.828                         ! EMO, EFA
+0.034073 339.383                         ! EMO, EFA
+0.037544 339.021                         ! EMO, EFA
+0.041017 338.720                         ! EMO, EFA
+0.044491 338.466                         ! EMO, EFA
+0.047965 338.249                         ! EMO, EFA
+0.051440 338.062                         ! EMO, EFA
+0.051567 338.056                         ! EMO, EFA
+0.051567 338.056                         ! EMO, EFA
+0.051568 338.057                         ! EMO, EFA
+0.051572 338.065                         ! EMO, EFA
+0.051577 338.072                         ! EMO, EFA
+S2                                       ! EALPHA - FORCING CONSTITUENT NAME AGAIN
+0.151220 240.863                         ! EMO, EFA
+0.151231 240.864                         ! EMO, EFA
+0.151241 240.864                         ! EMO, EFA
+0.151262 240.865                         ! EMO, EFA
+0.143016 240.402                         ! EMO, EFA
+0.133808 239.818                         ! EMO, EFA
+0.129209 239.495                         ! EMO, EFA
+0.124577 239.218                         ! EMO, EFA
+0.115324 238.596                         ! EMO, EFA
+0.106606 237.920                         ! EMO, EFA
+0.101939 237.584                         ! EMO, EFA
+0.097547 237.238                         ! EMO, EFA
+0.093233 237.017                         ! EMO, EFA
+0.088964 236.868                         ! EMO, EFA
+0.084749 236.725                         ! EMO, EFA
+0.081108 236.795                         ! EMO, EFA
+0.077466 236.872                         ! EMO, EFA
+0.071103 237.344                         ! EMO, EFA
+0.066367 237.933                         ! EMO, EFA
+0.062406 238.639                         ! EMO, EFA
+0.058808 239.366                         ! EMO, EFA
+0.055421 240.065                         ! EMO, EFA
+0.052766 240.608                         ! EMO, EFA
+0.050412 241.036                         ! EMO, EFA
+0.048162 241.476                         ! EMO, EFA
+0.046442 242.092                         ! EMO, EFA
+0.044421 242.800                         ! EMO, EFA
+0.042230 243.521                         ! EMO, EFA
+0.039934 244.452                         ! EMO, EFA
+0.037574 245.532                         ! EMO, EFA
+0.035058 246.760                         ! EMO, EFA
+0.032414 248.244                         ! EMO, EFA
+0.029719 250.050                         ! EMO, EFA
+0.027120 252.419                         ! EMO, EFA
+0.024578 255.359                         ! EMO, EFA
+0.022119 259.052                         ! EMO, EFA
+0.019939 263.651                         ! EMO, EFA
+0.017163 272.407                         ! EMO, EFA
+0.014860 285.429                         ! EMO, EFA
+0.013454 306.840                         ! EMO, EFA
+0.013983 327.450                         ! EMO, EFA
+0.016000 343.273                         ! EMO, EFA
+0.019244 355.361                         ! EMO, EFA
+0.022851 3.194                           ! EMO, EFA
+0.026150 7.938                           ! EMO, EFA
+0.029443 11.339                          ! EMO, EFA
+0.033396 14.393                          ! EMO, EFA
+0.037333 16.802                          ! EMO, EFA
+0.041165 18.653                          ! EMO, EFA
+0.044869 20.003                          ! EMO, EFA
+0.048251 21.045                          ! EMO, EFA
+0.051519 21.891                          ! EMO, EFA
+0.054596 22.580                          ! EMO, EFA
+0.057601 23.192                          ! EMO, EFA
+0.060617 23.722                          ! EMO, EFA
+0.063556 24.117                          ! EMO, EFA
+0.066026 24.422                          ! EMO, EFA
+0.068480 24.616                          ! EMO, EFA
+0.070473 24.708                          ! EMO, EFA
+0.072294 24.702                          ! EMO, EFA
+0.074122 24.673                          ! EMO, EFA
+0.075652 24.458                          ! EMO, EFA
+0.077278 24.135                          ! EMO, EFA
+0.078807 23.802                          ! EMO, EFA
+0.079978 23.342                          ! EMO, EFA
+0.081137 22.846                          ! EMO, EFA
+0.081663 22.517                          ! EMO, EFA
+0.082204 22.159                          ! EMO, EFA
+0.082782 21.798                          ! EMO, EFA
+0.083288 21.435                          ! EMO, EFA
+0.083830 20.998                          ! EMO, EFA
+0.084373 20.511                          ! EMO, EFA
+0.084907 19.978                          ! EMO, EFA
+0.085375 19.433                          ! EMO, EFA
+0.085794 18.815                          ! EMO, EFA
+0.086115 18.138                          ! EMO, EFA
+0.086422 17.417                          ! EMO, EFA
+0.086739 16.950                          ! EMO, EFA
+0.090119 18.218                          ! EMO, EFA
+0.093479 19.689                          ! EMO, EFA
+0.097991 21.473                          ! EMO, EFA
+0.099087 21.470                          ! EMO, EFA
+0.100027 21.352                          ! EMO, EFA
+0.101316 21.195                          ! EMO, EFA
+0.102607 21.041                          ! EMO, EFA
+0.103429 20.877                          ! EMO, EFA
+0.103807 20.694                          ! EMO, EFA
+0.104032 20.585                          ! EMO, EFA
+0.104258 20.477                          ! EMO, EFA
+0.104484 20.369                          ! EMO, EFA
+0.104711 20.262                          ! EMO, EFA
+0.104618 20.175                          ! EMO, EFA
+0.104403 20.096                          ! EMO, EFA
+0.104188 20.016                          ! EMO, EFA
+0.103973 19.936                          ! EMO, EFA
+0.103759 19.855                          ! EMO, EFA
+0.103545 19.775                          ! EMO, EFA
+0.103331 19.693                          ! EMO, EFA
+0.103323 19.690                          ! EMO, EFA
+0.103323 19.690                          ! EMO, EFA
+0.103323 19.690                          ! EMO, EFA
+0.103324 19.690                          ! EMO, EFA
+0.103325 19.689                          ! EMO, EFA
+110                                      ! ANGINN - MINIMUM ANGLE FOR TANGENTIAL FLOW
+-1 0.000000 14.000000 360                ! NOUTE, TOUTSE, TOUTFE, NSPOOLE - FORT 61 OPTIONS
+0                                        ! NSTAE - NUMBER OF ELEVATION RECORDING STATIONS, FOLLOWED BY LOCATIONS ON PROCEEDING LINES
+-1 0.000000 14.000000 360                ! NOUTV, TOUTSV, TOUTFV, NSPOOLV - FORT 62 OPTIONS
+0                                        ! NSTAV - NUMBER OF VELOCITY RECORDING STATIONS, FOLLOWED BY LOCATIONS ON PROCEEDING LINES
+-1 0.000000 14.000000 3600               ! NOUTGE, TOUTSGE, TOUTFGE, NSPOOLGE - GLOBAL ELEVATION OUTPUT INFO (UNIT 63)
+-1 0.000000 14.000000 3600               ! NOUTGV, TOUTSGV, TOUTFGV, NSPOOLGV - GLOBAL VELOCITY OUTPUT INFO (UNIT 64)
+0                                        ! NHARF - NUMBER OF FREQENCIES IN HARMONIC ANALYSIS
+0.000000 0.000000 0 0.000000             ! THAS,THAF,NHAINC,FMV - HARMONIC ANALYSIS PARAMETERS
+0 0 0 0                                  ! NHASE,NHASV,NHAGE,NHAGV - CONTROL HARMONIC ANALYSIS AND OUTPUT TO UNITS 51,52,53,54
+1 0                                      ! NHSTAR,NHSINC - HOT START FILE GENERATION PARAMETERS
+1 0 1e-010 50                            ! ITITER, ISLDIA, CONVCR, ITMAX - ALGEBRAIC SOLUTION PARAMETERS
+&timeBathyControl  !NDDT, BTIMINC, BCHGTIMINC -- BATHYMETRY TIME RECORDS (IN SECONDS) AND TRANSITION TIME
+    NDDT = 0
+    BTIMINC = 0
+    BCHGTIMINC = 43200
+/
