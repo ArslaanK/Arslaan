@@ -1,12 +1,19 @@
+#!/usr/bin/env python 3.5.2
+# -*- coding: utf-8 -*-
+"""
+Description: Grab Data from AHPS
+    
+Input(s): AHPS Station
+Output(s): plot, dataframe
 
-# coding: utf-8
+Notes: Stage & Flow  retrieved, only stage records formatted & plottable
 
-# In[1]:
-
+@author: slawler@dewberry.com
+Created on Sat Dec 10 11:21:05 2016
+"""
 #Import Libraries
 import matplotlib.pyplot as plt
 from matplotlib.dates import DayLocator, HourLocator, DateFormatter
-get_ipython().magic('matplotlib notebook')
 import pandas as pd
 import numpy as np
 import requests
@@ -14,10 +21,19 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 
 
-# In[2]:
+#--AHPS STATIONS:
+alex = 'AXTV2'    
+cbbt = 'CBBV2'
+wadc ='WASD2'
+gtwn ='GTND2'
+l_falls = 'BRKM2'
+mach_ck = 'NCDV2'
+anapolis = 'APAM2'
 
+gage = alex
+    
 #---Read HTML
-url = r'http://water.weather.gov/ahps2/hydrograph_to_xml.php?gage=cbbv2&output=tabular'
+url = r'http://water.weather.gov/ahps2/hydrograph_to_xml.php?gage={}&output=tabular'.format(gage)
 r = requests.get(url)
 data = r.text
 soup = BeautifulSoup(data, "lxml")
@@ -29,8 +45,6 @@ data_rows = data.find_all('tr')[3:]
 #--Get the Current Year in UTC
 year = datetime.now(timezone.utc).strftime("%Y")
 
-
-# In[3]:
 
 #--Get the Current Year in UTC
 year = datetime.now(timezone.utc).strftime("%Y")
@@ -64,10 +78,8 @@ for row in data_rows:
         if 'Forecast  Data ' in check_value:
             value = 'Forecast'
       
-
-
-# In[4]:
-
+                
+            
 #---Create & Format Dataframes
 df_obs = pd.DataFrame.from_dict(obs_data)
 df_obs['Date(UTC)'] = pd.to_datetime(df_obs['Date(UTC)'], format='%m/%d/%Y %H:%M')
@@ -80,10 +92,7 @@ df_fcst['Stage'] = df_fcst['Stage'].astype(str).str[:-2].astype(np.float)
 df_fcst = df_fcst.set_index(df_fcst['Date(UTC)'] )
 
 #start, stop = df_obs.index[0], df_fcst.index[-1]
-#idx = pd.date_range(start,stop,freq='15T')
 
-
-# In[5]:
 
 #--Initialize Plots
 fig, ax = plt.subplots(figsize=(12,6))
@@ -92,6 +101,7 @@ fig, ax = plt.subplots(figsize=(12,6))
 x0 = df_obs['Date(UTC)']
 y0 = df_obs['Stage']
 ax.plot(x0 ,y0, color = 'b')       # Observed
+
 
 #--Plot Forecast
 x1 = df_fcst['Date(UTC)']
@@ -102,8 +112,10 @@ ax.plot(x1 ,y1, color = 'r')       # Observed
 
 
 plt.legend(['Observed', 'Forecast'], loc='lower left',scatterpoints = 1)
+ax.plot(x0 ,y0, color = 'b', marker = 'o')       # Add Points
+ax.plot(x1 ,y1, color = 'r', marker = 'o')       # Add Points
 
-plt.title('AHPS Data')
+plt.title('AHPS Data: {}'.format(gage))
 plt.xlabel('(UTC)')
 plt.ylabel('Stage (ft)')
 plt.grid(True)
@@ -111,4 +123,3 @@ plt.gca().xaxis.set_major_formatter(DateFormatter('%b %d %H:%M'))
 plt.gca().xaxis.set_major_locator(HourLocator(np.arange(0, 25, 12)))
 
 plt.gcf().autofmt_xdate()
-
