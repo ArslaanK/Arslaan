@@ -1,0 +1,2551 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+	<Document>
+		<name>NWS AHPS</name>
+		<NetworkLink>
+			<visibility>1</visibility>
+			<name>NOAA/NWS Logos</name>
+			<Link>
+				<href>http://forecast.weather.gov/branding.kml</href>
+			</Link>
+		</NetworkLink>
+		<Style id="ci-cc33ff">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/ci-cc33ff.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="ci-ff0000">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/ci-ff0000.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="ci-ff9900">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/ci-ff9900.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="ci-ffff00">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/ci-ffff00.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="ci-00ff00">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/ci-00ff00.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="ci-666666">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/ci-666666.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="ci-bdc2bb">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/ci-bdc2bb.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="ci-8c8c8c">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/ci-8c8c8c.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="ci-72afe9">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/ci-72afe9.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="ci-906320">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/ci-906320.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="sq-cc33ff">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/sq-cc33ff.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="sq-ff0000">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/sq-ff0000.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="sq-ff9900">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/sq-ff9900.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="sq-ffff00">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/sq-ffff00.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="sq-00ff00">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/sq-00ff00.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="sq-666666">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/sq-666666.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="sq-bdc2bb">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/sq-bdc2bb.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="sq-8c8c8c">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/sq-8c8c8c.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="sq-72afe9">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/sq-72afe9.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="sq-906320">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/sq-906320.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="di-cc33ff">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/di-cc33ff.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="di-ff0000">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/di-ff0000.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="di-ff9900">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/di-ff9900.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="di-ffff00">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/di-ffff00.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="di-00ff00">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/di-00ff00.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="di-666666">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/di-666666.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="di-bdc2bb">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/di-bdc2bb.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="di-8c8c8c">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/di-8c8c8c.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="di-72afe9">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/di-72afe9.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Style id="di-906320">
+			<IconStyle>
+				<scale>0.4</scale>
+				<Icon>
+					<href>http://water.weather.gov/ahps2/images/mapmarkers/di-906320.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+                <scale>0.6</scale>
+            </LabelStyle>
+		</Style>
+		<Placemark>
+			<name><![CDATA[Allegheny River at C.W. Bill Young Lock and Dam (ACMP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=acmp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.815000,40.536111</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[New Jersey Atlantic Coast at Atlantic City (ocean front) (ACYN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=acyn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-ffff00</styleUrl>
+			<Point>
+				<coordinates>-74.416667,39.350000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Greenbrier River at Alderson (ALDW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=aldw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.641667,37.724167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Jordan Creek at Allentown (ALNP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=alnp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.482778,40.623056</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Roanoke River at Altavista (ALTV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=altv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-79.295556,37.104444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Severn River at Annapolis (APAM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=apam2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.480000,38.983056</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Little Lehigh Creek at Allentown (APAP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=apap1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-75.474444,40.596389</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Potomac River at Alexandria (AXTV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=axtv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.038333,38.805278</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Walker Creek at Bane (BANV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=banv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-80.709722,37.268056</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Monongahela River at Braddock Lock and Dam (BDDP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=bddp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.860278,40.392500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Raritan River at Bound Brook (BDKN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=bdkn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.548333,40.551111</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware River at Burlington (BDRN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=bdrn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.869447,40.081459</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Beaver River near Beaver Falls (BEAP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=beap1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.315278,40.763333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Bald Eagle Creek near Beech Creek Station (BECP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=becp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.549722,41.080833</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[James River (VA) at Bent Creek (BECV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=becv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.829722,37.536111</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Tygart Valley River at Belington (BELW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rlx&gage=belw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-79.936111,39.029167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Lehigh River at Bethlehem (BETP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=betp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.379167,40.615278</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Chesapeake Bay at BISHOPS HEAD (BISM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=bism2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.038056,38.220000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Buckhannon River at Buckhannon (BKNW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rlx&gage=bknw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-80.193333,39.013056</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Millstone River at Blackwells Mills (BKWN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=bkwn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.575833,40.475000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Northwest Branch Patapsco River at Baltimore/Fort McHenry (BLTM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=bltm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.580000,39.270000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Susquehanna River at Bloomsburg (BMBP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=bmbp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.420833,40.995833</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[James River (VA) at Buchanan (BNNV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=bnnv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.679167,37.530556</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Rockaway River at Boonton below reservoir (BONN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=bonn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.394722,40.896944</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Rockaway River at Boonton above reservoir (BOTN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=botn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.419167,40.907500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Schuylkill River at Berne (BREP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=brep1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.998611,40.522500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[James River (VA) at Bremo Bluff (BREV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=brev2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-bdc2bb</styleUrl>
+			<Point>
+				<coordinates>-78.288611,37.708333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Potomac River near Washington DC (Little Falls) (BRKM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=brkm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.127778,38.949722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Mahoning River at Berlin Dam (BRLO1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=cle&gage=brlo1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-81.002778,41.046111</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Roanoke River at Brookneal (BROV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=brov2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.945833,37.039444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Mahoning River below Berlin Dam (BRWO1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=cle&gage=brwo1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-81.001389,41.048333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Greenbrier River at Buckeye (BUCW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rlx&gage=bucw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.130833,38.185833</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware River at Belvidere (BVDN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=bvdn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.082500,40.826389</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Maury River near Buena Vista (BVSV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=bvsv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.391667,37.762500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Chesapeake Bay at Cambridge (CAMM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=camm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.068333,38.573333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Passaic River at Chatham (CAMN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=camn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.389722,40.726111</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[James River (VA) at Cartersville (CARV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=carv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-bdc2bb</styleUrl>
+			<Point>
+				<coordinates>-78.086111,37.670833</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Chesapeake Bay at Chesapeake Bay Bridge Tunnel (CBBV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=cbbv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.120278,36.966944</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[North Branch Potomac River at Cumberland (CBEM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=cbem2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.773333,39.621944</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Crooked Creek at Crooked Creek Dam Tailwater (CCDP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=ccdp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.511667,40.720278</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Atlantic Coast near Anheuser Busch Coastal Research Center (CCHV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=cchv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-ffff00</styleUrl>
+			<Point>
+				<coordinates>-75.923546,37.288969</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Brandywine Creek at Chadds Ford (CDFP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=cdfp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.593611,39.869722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Christina River at Coochs Bridge (CHBD1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=chbd1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-75.727778,39.637500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Chesapeake and Delaware Canal at Chesapeake City (CHCM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=chcm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.810000,39.526667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Chincoteague Channel near Chincoteague Bay Inlet (CHIV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=chiv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-ffff00</styleUrl>
+			<Point>
+				<coordinates>-75.407800,37.902300</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Monongahela River at Charleroi Lock and Dam (CHRP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=chrp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.901667,40.149444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Chester Creek near Chester (CHSP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=chsp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-75.408611,39.868889</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[West Fork River near Clarksburg (CLKW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rlx&gage=clkw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.359167,39.238611</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Youghiogheny River at Connellsville (CLLP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=cllp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.593889,40.017500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Allegheny River at Clinton Lock and Dam (CLNP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=clnp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.581111,40.716667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Rapidan River near Culpeper (CLPV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=clpv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.975278,38.350278</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Elk River at Clay (CLYW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rlx&gage=clyw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-81.088333,38.460556</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware Bay at Cape May (CMAN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=cman4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-ffff00</styleUrl>
+			<Point>
+				<coordinates>-74.966667,38.966667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Conemaugh River at Conemaugh Lake Tailwater (CMDP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=cmdp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.391111,40.454444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Youghiogheny River at Confluence (CNFP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=cnfp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.372778,39.827500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Conemaugh River at Conemaugh Lake Pool (CNMP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=cnmp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.367778,40.468333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Susquehanna River at Conowingo Dam (CNWM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=cnwm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-76.174444,39.657778</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Gauley River at Camden-on-Gauley (COGW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rlx&gage=cogw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.601111,38.365833</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Clarion River near Cooksburg (COKP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=cokp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-79.209167,41.330556</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[North Fork Shenandoah River at Cootes Store (COOV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=coov2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.853056,38.636944</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Yellow Breeches Creek near Camp Hill (CPHP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=cphp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.898333,40.224722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Crooked Creek above Crooked Ck. Dam Pool (CRCP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=crcp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.508333,40.714167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Jackson River at Covington (CVGV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=cvgv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.000833,37.788611</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Wills Creek near Cumberland (CWCM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=cwcm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.788056,39.669722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Susquehanna River at Danville (DANP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=danp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.619444,40.958056</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Seneca Creek at Dawsonville (DAWM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=dawm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.335833,39.128056</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware River at Delaware City (DELD1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=deld1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.588333,39.581667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Tygart Valley River at Dailey (DLYW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rlx&gage=dlyw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.881944,38.809167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[White Clay Creek near Newark (DPKD1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=dpkd1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-75.675000,39.699167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Ohio River at Dashields Lock and Dam (DSHP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=dshp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.205833,40.549167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Dan River at Danville (DVLV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=dvlv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.370000,36.562500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[East Branch Brandywine Creek below Downingtown (DWNP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=dwnp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-75.673611,39.968611</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Little Conemaugh River at East Conemaugh (ECMP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=ecmp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-78.882778,40.345833</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Potomac River at Edwards Ferry (EDFM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=edfm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.471111,39.098611</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Ohio River at EAST LIVERPOOL (ELVO1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=elvo1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-80.563333,40.620278</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Monongahela River at Elizabeth Lock and Dam (ELZP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=elzp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.901389,40.262222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Meherrin River at Emporia (EPOV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=epov2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.540833,36.690000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware River at Easton (ESTN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=estn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.203333,40.694444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Conococheague Creek at Fairview (FAVM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=favm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.824722,39.716389</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Rappahannock River above Fredericksburg (FDBV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=fdbv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.529444,38.308333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Monocacy River near Frederick at Interstate 70 (FDKM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=fdkm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.366111,39.402778</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Stonycreek River at Ferndale (FDLP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=fdlp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-78.920833,40.285556</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Rappahannock River at Fredericksburg (FEDV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=fedv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-77.449722,38.289722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[South Branch Potomac River at Franklin (FKLW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=fklw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.338056,38.635556</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Blackwater River (VA) above Franklin (FKNV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=fknv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-76.898611,36.762500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware River at Frenchtown (FREN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=fren4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.065000,40.526111</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Allegheny River at Freeport Lock and Dam (FREP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=frep1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-79.667500,40.684722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Allegheny River at Franklin (FRKP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=frkp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.820556,41.389444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Appomattox River at Farmville (FRMV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=frmv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-bdc2bb</styleUrl>
+			<Point>
+				<coordinates>-78.388889,37.306944</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[South Fork Shenandoah River at Front Royal (FROV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=frov2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.211111,38.913889</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[New River at Galax (GAXV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=gaxv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.979167,36.647222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Cacapon River near Great Cacapon (GCPW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=gcpw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.310000,39.582222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Little Kanawha River at Glenville (GLEW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rlx&gage=glew2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.838611,38.932778</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[New River at Glen Lyn (GLLV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=gllv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-80.860833,37.372778</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Perkiomen Creek at Graterford (GRAP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=grap1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.451944,40.229444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Little Kanawha River at Grantsville (GRTW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rlx&gage=grtw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-81.097778,38.921667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Potomac River at Georgetown / Wisconsin Ave (GTND2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=gtnd2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.063056,38.902222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Monongahela River at Grays Landing Lock and Dam (GYLP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=gylp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.923056,39.825000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Ohio River at Hannibal Lock and Dam (HANO1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=hano1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.866111,39.667222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Susquehanna River at Harrisburg (HARP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=harp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.886389,40.254722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Chesapeake Bay at Havre de Grace (HDGM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=hdgm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.089722,39.537778</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Swatara Creek near Hershey (HERP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=herp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.668056,40.298333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Potomac River at Harpers Ferry (HFEW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=hfew2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.728889,39.323611</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Conodoguinet Creek near Hogestown (HGSP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=hgsp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.021111,40.252222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[New River at Hinton (HINW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=hinw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.892778,37.670278</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Potomac River at Hancock (HNKM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=hnkm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.177778,39.697500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[James River (VA) at Holcomb Rock (HRKV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=hrkv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.262778,37.501111</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Swatara Creek at Harper Tavern (HTVP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=htvp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.577500,40.402500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Juniata River at Huntingdon (HUJP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=hujp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.019167,40.484722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[West Branch Susquehanna River at West Milton (ILTP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=iltp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.865278,41.018611</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Conemaugh River at Johnstown (JHSP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=jhsp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-78.926111,40.341389</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[West Branch Susquehanna River at Jersey Shore (JRSP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=jrsp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.251389,41.202222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[James River (VA) at Jamestown/Scotland Ferry (JSFV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=jsfv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.791453,37.220139</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[West Branch Susquehanna River at Karthaus (KARP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=karp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.109167,41.117500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[West Branch Mahoning River at Kirwan Reservoir (KIRO1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=cle&gage=kiro1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-81.081111,41.156389</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[North Branch Potomac River at Kitzmiller (KITM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=kitm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.181667,39.393889</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[West Branch Mahoning River below M J Kirwan Dam (KITO1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=cle&gage=kito1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-81.071944,41.156944</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Chesapeake Bay near Kiptopeke (KPTV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=kptv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.988056,37.166944</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Allegheny River at Kittanning Lock and Dam (KTTP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=kttp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.531667,40.820278</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Meherrin River near Lawrenceville (LAWV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=lawv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-77.831944,36.716667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Mahoning River at Leavittsburg (LEAO1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=cle&gage=leao1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.880833,41.239167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Goose Creek near Leesburg (LEEV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=leev2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.577778,39.019444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Loyalhanna Creek above Loyalhanna Dam Tail Water (LHDP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=lhdp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.451389,40.466944</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Lehigh River at Lehighton (LHTP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=lhtp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.705556,40.829167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[West Branch Susquehanna River at Lock Haven (LHVP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=lhvp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.442222,41.138056</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[James River (VA) at Lick Run (LIRV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=lirv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.784444,37.773611</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Conestoga River at Lancaster (LNCP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=lncp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.277500,40.050000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Neshaminy Creek at Langhorne (LNGP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=lngp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.957222,40.173889</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Saddle River at Lodi (LODN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=okx&gage=lodn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.080833,40.890278</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Loyalsock Creek at Loyalsockvile (LOYP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=loyp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.912778,41.325000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Passaic River at Little Falls (LTFN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=ltfn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.226111,40.884722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[North Branch Potomac River at Luke (LUKM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=lukm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.063889,39.478889</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[West Branch Susquehanna River at Lewisburg (LWBP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=lwbp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.873611,40.968056</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware Bay at Lewes (LWSD1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=lwsd1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-ffff00</styleUrl>
+			<Point>
+				<coordinates>-75.116667,38.783333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Juniata River at Lewistown (LWSP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=lwsp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.582778,40.594444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Potomac River at Lewisetta (LWTV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=lwtv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.465000,37.995000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Loyalhanna Creek at Loyalhanna Dam Pool (LYLP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=lylp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.451944,40.456944</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[South Fork Shenandoah River near Lynnwood (LYWV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=lywv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.755000,38.322500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Ramapo River at Mahwah (MAWN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=okx&gage=mawn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.163333,41.097500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Monongahela River at Maxwell Lock and Dam (MAXP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=maxp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.961111,40.001667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Opequon Creek near Martinsburg (MBGW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=mbgw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.938889,39.423611</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Pequannock River at Macopin (MCPN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=mcpn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.401111,41.018333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[West Branch Susquehanna River near Muncy (MCYP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=mcyp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-76.801389,41.205556</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Ohio River at Montgomery Lock and Dam (MGYP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=mgyp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.388889,40.647222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Mahoning Creek at Mahoning Dam Tailwater (MHDP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=mhdp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.291389,40.927500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Mahoning Creek at Mahoning Dam Pool (MHGP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=mhgp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.278056,40.921667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Passaic River near Millington (MILN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=miln4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.528889,40.680000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Shenandoah River at Millville (MILW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=milw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.789444,39.281944</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Mosquito Creek at Mosquito Creek Lake (MISO1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=cle&gage=miso1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.758611,41.305556</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Chesapeake Bay near Mobjack Bay (MJBV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=mjbv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-ffff00</styleUrl>
+			<Point>
+				<coordinates>-76.427500,37.323611</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Brodhead Creek at Minisink Hills (MNSP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=mnsp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.143056,40.998611</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Raritan River at Manville (MNVN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=mnvn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.582778,40.555556</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[South Fork South Branch Potomac River near SF Moorefield (MOFW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=mofw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.956389,39.012222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Monongahela River at Morgantown Lock and Dam (MORW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=morw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.969167,39.620000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Allegheny River at Mosgrove Lock and Dam (MOSP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=mosp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-79.476389,40.894444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Ohio River at Moundsville (MOUW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=mouw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-80.756389,39.905278</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Juniata River at Mapleton Depot (MPLP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=mplp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.935278,40.392222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Susquehanna River at Marietta (MRTP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=mrtp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.531111,40.054444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Mosquito Creek below Mosquito Creek Lake (MSQO1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=cle&gage=msqo1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.758611,41.299722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Appomattox River at Matoaca (MTCV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=mtcv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-bdc2bb</styleUrl>
+			<Point>
+				<coordinates>-77.475556,37.225000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware River at Montague (MTGN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=bgm&gage=mtgn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.795556,41.309167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[West Branch Susquehanna River at Montgomery (MTGP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=mtgp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-76.874722,41.169444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Swatara Creek at Middletown (MTLP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=mtlp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.728333,40.192500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware River at Matamoras/Port Jervis (MTMP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=bgm&gage=mtmp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.697778,41.370556</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Appomattox River at Mattoax (MTXV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=mtxv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-bdc2bb</styleUrl>
+			<Point>
+				<coordinates>-77.859167,37.421389</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Allegheny River at Natrona Lock and Dam (NATP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=natp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.718611,40.615278</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware River at Newbold Island (NBLP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=nblp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.749505,40.136480</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Upper Machodoc Creek near Dahlgren (NCDV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=ncdv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.036667,38.319722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Shenango River at New Castle (NCSP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=ncsp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-80.362778,41.017778</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Ohio River at New Cumberland Lock and Dam (NCUW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=ncuw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.625833,40.528056</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Neversink River at Godeffroy (NEVN6)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=bgm&gage=nevn6">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.602222,41.441111</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware River at New Hope-Lambertville Bridge (NHPP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=nhpp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.948889,40.364722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Juniata River at Newport (NPTP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=nptp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.129444,40.478333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Schuylkill River at Norristown (NRSP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=nrsp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.347222,40.111111</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Nassawadox Creek near Bayford (NSWV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=nswv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.935278,37.476389</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Mahoning River at Lake Milton (NWTO1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=cle&gage=nwto1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.977778,41.127222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Atlantic Coast near OCEAN CITY INLET (OCIM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=ocim2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.091944,38.328056</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Lackawanna River at Old Forge (OFRP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=bgm&gage=ofrp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.744722,41.359167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Youghiogheny River at Ohiopyle (OPLP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=oplp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.493056,39.870833</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Schuylkill River at Philadelphia (PADP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=padp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.188889,39.967778</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Allegheny River at Parker (PARP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=parp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.681389,41.100556</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Potomac River at Paw Paw (PAWW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=paww2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.456389,39.538889</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Dan River at Paces (PCEV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=pcev2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.089722,36.642222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[North Branch Rancocas Creek at Pemberton (PEBN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=pebn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.684444,39.969444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[South Branch Potomac River near Petersburg (PETW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=petw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.176111,38.991111</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware River at USCG Station Washington Street (PHBP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=phbp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.141389,39.933056</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Tygart Valley River at Philippi (PHIW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rlx&gage=phiw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.038889,39.150278</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Passaic River at Pine Brook (PINN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=pinn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.321667,40.862500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Monongahela River at Point Marion Lock and Dam (PMRP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=pmrp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.911667,39.726944</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Penns Creek at Penns Creek (PNCP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=pncp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.048611,40.866667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Mahoning Creek at Punxsutawney (PNXP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=pnxp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-78.967222,40.943889</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Potomac River at Point of Rocks (PORM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=porm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.543056,39.273611</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Ohio River at Powhatan Point (POWO1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=powo1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-80.799444,39.860556</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Pompton River at Pompton Plains (PPPN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=pppn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.281944,40.969722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Ramapo River at Pompton Lakes (PPTN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=pptn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.280000,40.991944</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Mahoning River below Lake Milton at Pricetown (PRIO1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=cle&gage=prio1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.971389,41.131389</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Cheat River at Parsons (PSNW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=psnw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.675278,39.121667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Schuylkill River at Pottstown (PTNP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=ptnp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.651944,40.241667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Ohio River at Pittsburgh (PTTP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=pttp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.010833,40.439444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Rivanna River at Palmyra (PYAV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=pyav2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-bdc2bb</styleUrl>
+			<Point>
+				<coordinates>-78.266111,37.857778</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Nottoway River near Rawlings (RAWV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=rawv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-77.800000,36.983333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Red Clay Creek at Wooddale (RCCD1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=rccd1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-75.636389,39.762778</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[New River at Radford (RDFV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=rdfv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.569444,37.141667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Schuylkill River at Reading (RDRP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=rdrp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.936667,40.334722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware Bay at Reedy Point (RDYD1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=rdyd1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.567778,39.551389</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Clarion River at Ridgway (RDYP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=rdyp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-78.736111,41.420833</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Rappahannock River at Remington (RENV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=renv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.813889,38.530556</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware River at Riegelsville (RGLN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=rgln4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.189722,40.594722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[James River (VA) at Richmond Locks (RICV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=ricv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-77.421111,37.525000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[James River (VA) at Richmond-Westham (RMDV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=rmdv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-bdc2bb</styleUrl>
+			<Point>
+				<coordinates>-77.547222,37.563056</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Allegheny River at Rimer Lock and Dam (RMRP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=rmrp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-79.547222,40.958333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Roanoke River at Randolph (RNDV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=rndv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.741111,36.915000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Greenbrier River at Renick (RNKW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=rnkw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-80.366667,38.000000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Roanoke River at Walnut Avenue (RONV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=ronv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.938889,37.258333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[West Branch Susquehanna River at Renovo (ROVP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=rovp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.750833,41.324444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Cheat River at Rowlesburg (ROWW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=roww2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-79.670556,39.342222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Roanoke River at Roanoke Rapids (RRDN7)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rah&gage=rrdn7">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-77.634444,36.460278</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[North Branch Raritan River near Raritan (RRTN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=rrtn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.679167,40.570556</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Antietam Creek near Sharpsburg (SACM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=sacm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.730278,39.449722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Pigg River near Sandy Level (SANV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=sanv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-79.525000,36.945833</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Chesapeake Bay near Starling Creek at Saxis (SAXV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=saxv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-72afe9</styleUrl>
+			<Point>
+				<coordinates>-75.727500,37.918800</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Dan River at South Boston (SBNV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=sbnv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.900556,36.693333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Ohio River at Steubenville (SBVO1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=sbvo1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-80.611111,40.358333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Susquehanna River at Sunbury (SBYP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=sbyp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.826944,40.834444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[New Jersey Atlantic Coast at Sandy Hook (SDHN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=sdhn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.005556,40.471667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Nottoway River near Sebrell (SEBV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=sebv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.166389,36.770278</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[South Fork Shenandoah River at Luray (SFSV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=sfsv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.535000,38.646111</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[St. George Creek at Straits Point (SGSM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=sgsm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.500000,38.138333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Shenango River at Shenango Dam Tailwater (SHDP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=shdp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.472778,41.266111</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Potomac River at Shepherdstown (SHEW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=shew2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.801389,39.434722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Bush Kill at Shoemakers (SHOP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=shop1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.038056,41.088056</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Shenango River at Shenango Dam Pool (SHPP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=shpp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.463056,41.265000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Allegheny River at Sharpsburg Lock and Dam (SHRP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=shrp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.915278,40.487500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Patuxent River at Solomons Island (SLIM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=slim2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.450000,38.320000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Aughwick Creek at Shirleysburg (SLYP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=slyp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.890833,40.281944</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Sherman Creek at Shermans Dale (SMDP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=smdp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.169167,40.323333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Red Bank Creek at St Charles (SNCP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=sncp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.394444,40.994444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Sinnemahoning Creek at Sinnemahoning (SNNP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=snnp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.103333,41.317222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Little Juniata River at Spruce Creek (SPKP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=spkp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.140833,40.612500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[South Branch Potomac River near Springfield (SPRW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=sprw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.654444,39.446944</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[North Fork Shenandoah River near Strasburg (STGV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=stgv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.336389,38.976667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware River at Stockton (STKN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=stkn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.979167,40.402778</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Youghiogheny River at Sutersville (STSP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=stsp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.806667,40.240278</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[South Branch Raritan River at Stanton (STTN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=sttn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.868056,40.572222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Nottoway River near Stony Creek (STYV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=styv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-77.400000,36.900000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[James River (VA) at Scottsville (SVEV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=svev2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.491667,37.797222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Conemaugh River at Seward (SWDP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=swdp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-79.026389,40.419167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[James River (VA) at Sewell&#039;s Point (SWPV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=swpv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.330000,36.946667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Raystown Branch Juniata River at Saxton (SXTP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=sxtp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.265556,40.215833</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Assunpink Creek at Trenton (TACN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=tacn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.749167,40.224167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Chesapeake Bay at Tolchester Beach (TCBM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=tcbm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.233333,39.216667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware River at Tocks Island (TKSN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=tksn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.086111,41.013333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware River at Trenton (TREN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=tren4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.778056,40.221667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Kiskiminetas River at Vandergrift (VGFP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=vgfp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-79.552222,40.604444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Atlantic Coast at Wachapreague (WAHV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=wahv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.686667,37.606667</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Washington Channel at SW Waterfront (WASD2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=wasd2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-77.021111,38.873333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Delaware River at Washington Crossing (WASN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=wasn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.869444,40.294444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[West Branch Susquehanna River at Watsontown (WATP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=watp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-76.863611,41.081944</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[South River at Waynesboro near Lyndhurst Road (WAYV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=wayv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.908333,38.057500</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Susquehanna River at Wilkes Barre (WBRP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=bgm&gage=wbrp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.879167,41.252778</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Ohio River at Wellsburg (WELW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=welw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-80.613611,40.275000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Ohio River at Pike Island Lock and Dam (WHLW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=whlw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.701667,40.149722</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Frankstown Branch Juniata River at Williamsburg (WIBP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=wibp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-78.200000,40.463056</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[West Branch Susquehanna River at Williamsport (WILP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=ctp&gage=wilp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.996944,41.236111</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Ohio River at Wheeling (WLGW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=wlgw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-80.728611,40.057222</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Potomac River at Williamsport (WLLM2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=lwx&gage=wllm2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-77.847500,39.609167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Ohio River at Wellsville (WLVO1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=pbz&gage=wlvo1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-80.641111,40.614167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Brandywine Creek at Wilmington (WMND1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=wmnd1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.573333,39.769444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Chesapeake Bay at Windmill Point (WNDV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=wndv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.286667,37.623333</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Wanaque River at Wanaque (WNQN4)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=wnqn4">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-74.293056,41.044167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Lehigh River at Walnutport (WNTP1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=phi&gage=wntp1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-00ff00</styleUrl>
+			<Point>
+				<coordinates>-75.603333,40.756944</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Wolf Creek near Narrows (WOLV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rnk&gage=wolv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-80.850000,37.305556</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Mahoning River at Warren (WRNO1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=cle&gage=wrno1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-80.823333,41.233889</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[West Fork River at Weston (WTNW2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=rlx&gage=wtnw2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-80.473889,39.029167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Mahoning River at Youngstown (YGWO1)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=cle&gage=ygwo1">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#ci-8c8c8c</styleUrl>
+			<Point>
+				<coordinates>-80.662778,41.105000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Chesapeake Bay near YORKTOWN (YKTV2)]]></name>
+			<description><![CDATA[<a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=akq&gage=yktv2">View the hydrograph for this marker (0.5)</a>]]></description>
+			<styleUrl>#sq-00ff00</styleUrl>
+			<Point>
+				<coordinates>-76.478333,37.226667</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</kml>
