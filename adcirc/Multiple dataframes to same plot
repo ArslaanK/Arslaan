@@ -23,11 +23,15 @@ from scipy.interpolate import interp1d
 
 root_dir = r'C:\Users\student.W7JF4Z7V1\Desktop\ADCIRC+SWAN results\FinalJan06\sub outputs\sub_fort_orignal'
 
+-#---------------------defining all 3 files----------- using the string type and later in the end merging all dataframes in one---
+
+
 adcirc_file1 = 'fortx.61'
 adcirc_file2 = 'forty.61'
 adcirc_file3 = 'fortz.61'
 start, freq = "09-2015-20 18:06","360s" #---Date Format: %m-%Y-%d %H:%M
 
+--#----------------------definitation of stations
 nodesx = {'1':{'8632200':[]}}
 nodesy = {'1':{'8632200':[]}}
 nodesz = {'1':{'8632200':[]}}
@@ -45,6 +49,8 @@ product   = 'water_level'                     #Product
 
 # In[]:
 #------------------------------------Read file & Extract Time Series Data
+
+ -#--------- multiple reading files in 3 nodes type (nodex,nodey,nodez)
 
 f1 = os.path.join(root_dir,adcirc_file1)
 
@@ -198,6 +204,8 @@ adcircz = adcircz.set_index(adc_idx)
 # In[]:
 #-------------------------Join ADCIRC & NOAA Dataframes, Resample ADCIRC values
 
+ -#--(Trying to merge all 3 data frames for 3 adcirc files)--------------------------
+    
 df = df.merge(adcircx, how='outer', left_index=True, right_index=True)
 
 for n in nodesx:
@@ -213,6 +221,9 @@ df = df.merge(adcircz, how='outer', left_index=True, right_index=True)
 for n in nodesz:
     df[n] = df[n].interpolate()
    
+    
+ #--- output is not merging everything in a single dataframe ,getting the error "KeyError: 1"-------------
+    
     
 # In[]:
 #--------------------------Plot Results for Each Station        
