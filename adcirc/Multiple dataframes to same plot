@@ -8,7 +8,7 @@ Output(s):
 @author: slawler@dewberry.com
 Created on Sun Oct 23 18:10:24 2016
 """
-# In[]:
+
 #------------Load Python Modules--------------------#
 import matplotlib.pyplot as plt
 import fileinput
@@ -18,20 +18,18 @@ import os
 import requests
 from scipy.interpolate import interp1d
 
-# In[]:
 #------------------------------------User Inputs
 
-root_dir = r'C:\Users\student.W7JF4Z7V1\Desktop\ADCIRC+SWAN results\FinalJan06\sub outputs\sub_fort_orignal'
+root_dir = r'/Users/slawler/Desktop/Arslaan/adcirc'
 
--#---------------------defining all 3 files----------- using the string type and later in the end merging all dataframes in one---
-
+#---------------------defining all 3 files----------- using the string type and later in the end merging all dataframes in one---
 
 adcirc_file1 = 'fortx.61'
 adcirc_file2 = 'forty.61'
 adcirc_file3 = 'fortz.61'
 start, freq = "09-2015-20 18:06","360s" #---Date Format: %m-%Y-%d %H:%M
 
---#----------------------definitation of stations
+#----------------------definitation of stations
 nodesx = {'1':{'8632200':[]}}
 nodesy = {'1':{'8632200':[]}}
 nodesz = {'1':{'8632200':[]}}
@@ -47,10 +45,9 @@ url       = 'http://tidesandcurrents.noaa.gov/api/datagetter'
 product   = 'water_level'                     #Product
 
 
-# In[]:
 #------------------------------------Read file & Extract Time Series Data
 
- -#--------- multiple reading files in 3 nodes type (nodex,nodey,nodez)
+#--------- multiple reading files in 3 nodes type (nodex,nodey,nodez)
 
 f1 = os.path.join(root_dir,adcirc_file1)
 
@@ -102,8 +99,7 @@ for n in nodesx: #---This is sloppy, we can improve this: we just need the lengh
         period = len(nodesx[n][key])   
         
    
-        
-# In[]:
+      
 #---------------------Ping NOAA API for Validation Data,Create NOAA Dataframe
 
 noaa = pd.DataFrame()
@@ -158,8 +154,7 @@ for key in datum_dict:
         df[key] = df[key]-datum_dict[key]
     else:
         print('Key not found: ',key)
-             
-# In[]:
+
 #--------------------------Create ADCIRC DataFrame
 
 #----------------------------------ADCIRC file A-----------------
@@ -172,6 +167,7 @@ adcircx.replace(to_replace=-99999.000000,value=0,inplace=True)
 adc_idx = pd.date_range(first,periods = period, freq=freq)
 
 adcircx = adcircx.set_index(adc_idx)
+adcircx = adcircx.rename(columns={'1':'x1'})
 
 #----------------------------------ADCIRC file B-----------------
 adcircy = pd.DataFrame()
@@ -183,6 +179,7 @@ adcircy.replace(to_replace=-99999.000000,value=0,inplace=True)
 adc_idx = pd.date_range(first,periods = period, freq=freq)
 
 adcircy = adcircy.set_index(adc_idx)
+adcircy = adcircy.rename(columns={'1':'y1'})
 
 #----------------------------------ADCIRC file C-----------------
 
@@ -195,42 +192,22 @@ adcircz.replace(to_replace=-99999.000000,value=0,inplace=True)
 adc_idx = pd.date_range(first,periods = period, freq=freq)
 
 adcircz = adcircz.set_index(adc_idx)
+adcircz = adcircz.rename(columns={'1':'z1'})
 
 
-
-
-
-  
-# In[]:
 #-------------------------Join ADCIRC & NOAA Dataframes, Resample ADCIRC values
 
- -#--(Trying to merge all 3 data frames for 3 adcirc files)--------------------------
-    
-df = df.merge(adcircx, how='outer', left_index=True, right_index=True)
+df_adcirc = adcircx.merge(adcircy,left_index=True, right_index=True).merge(adcircz,left_index=True, right_index=True)
 
-for n in nodesx:
-    df[n] = df[n].interpolate()
+
+ #--(Trying to merge all 3 data frames for 3 adcirc files)--------------------------
  
-df = df.merge(adcircy, how='outer', left_index=True, right_index=True)
 
-for n in nodesy:
-    df[n] = df[n].interpolate()
+    
+df = df.merge(df_adcirc, how='outer', left_index=True, right_index=True)
 
-df = df.merge(adcircz, how='outer', left_index=True, right_index=True)
-
-for n in nodesz:
-    df[n] = df[n].interpolate()
-   
     
- #--- output is not merging everything in a single dataframe ,getting the error "KeyError: 1"-------------
-    
-    
-# In[]:
 #--------------------------Plot Results for Each Station        
  
-for n in nodes:
-    for key in nodes[n]:
-       df.plot(x = df.index, y = [n,key])
-       plt.title(gages[key])
-       plt.grid()
-       print('\nPlotting Adcirc Station {} for gage {}, {}:'.format(n,key, gages[key]))  
+
+df.plot()
