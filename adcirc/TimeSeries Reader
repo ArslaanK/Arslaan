@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+import csv
+import datetime as dt
+import fileinput
+import numpy as np
+
+
+with open('hoboS1ES.txt') as f:
+    content = f.readlines()
+
+lines = [line.rstrip('\n') for line in open('hoboS1ES.txt')]
+
+plt.plot(lines)
