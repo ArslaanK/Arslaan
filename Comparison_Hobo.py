@@ -11,6 +11,8 @@ Created on Sun Oct 23 18:10:24 2016
 
 #------------Load Python Modules--------------------#
 import matplotlib.pyplot as plt
+from matplotlib import pylab
+from matplotlib.dates import DayLocator, HourLocator, DateFormatter
 import fileinput
 import datetime
 import pandas as pd
@@ -21,7 +23,7 @@ import csv
 
 #------------------------------------User Inputs
 
-root_dir = r'C:\Users\student.W7JF4Z7V1\Desktop\comparefort61s'
+root_dir = r'C:\Users\slawler\Desktop\Arslaan'
 
 #---------------------defining all 3 files----------- using the string type and later in the end merging all dataframes in one---
 
@@ -228,12 +230,14 @@ adcirca = adcirca.set_index(adc_idx)
 adcirca = adcirca.rename(columns={'1':'FemaSubChang'})
 #------------------------------------Reading Hobo Data---------------------
 
-linesh = pd.DataFrame(lines)
+linesh = pd.DataFrame(lines, dtype = 'float')
 
-adc_idx = pd.date_range(first,periods = period, freq=freq)
+#==CHECK THIS OFFSET FOR UTC TIME CORRECTION...I guessed
+utc_date_start = first + datetime.timedelta(hours=4)
+adc_idx = pd.date_range(utc_date_start ,periods = period, freq=freq)
 
 linesh = linesh.set_index(adc_idx)
-linesh = linesh.rename(columns={'0':'HOBOS1Es'})
+linesh = linesh.rename(columns={0:'HOBOS1Es'})
 
 
 #-------------------------Join ADCIRC & NOAA Dataframes, Resample ADCIRC values
@@ -244,11 +248,85 @@ df_adcirc = adcircx.merge(adcircy,left_index=True, right_index=True).merge(adcir
  #--(Trying to merge all 3 data frames for 3 adcirc files)--------------------------
  
 
-    
+
 df = df.merge(df_adcirc, how='outer', left_index=True, right_index=True)
 
     
-#--------------------------Plot Results for Each Station        
- 
+#----------------Different Approach to Plot Results        
 
-df.plot()
+#--Initialize Plot
+fig, ax = plt.subplots(figsize=(12,6))
+plt.grid(True)
+
+#--Plot Observed Data
+x = df.index 
+y0 = df['8632200']
+ax.plot(x ,y0, color = 'b', linewidth = 2, label = y0.name)   
+
+#--Timeseries 1
+y1 = df['HOBOS1Es']
+ax.plot(x ,y1, color = 'r', label = y1.name)  
+
+#--Timeseries  2
+y2 = df['FemaFull']
+ax.plot(x ,y2, color = 'black', label = y2.name)  
+
+
+#--Add as many additional time series to the plot as you like....
+#--Timeseries 3
+#--Timeseries 4
+
+
+
+#--Add Plot Formatting
+plt.title('Validation Plot')
+plt.xlabel('')
+plt.ylabel('Stage (ft)', fontweight='bold')
+plt.legend(loc="upper right")
+
+
+
+'''
+# Example of how to format date axis
+plt.gca().xaxis.set_major_formatter(DateFormatter('%I%p\n%a\n%b%d'))
+plt.gca().xaxis.set_major_locator(HourLocator(byhour=range(24), interval=12))
+
+
+#--Set Axis Limits
+plot_start = '2015-09-20 18:06:00'
+plot_stop =  '2015-09-22 18:06:00'
+ax.set_xlim(plot_start, plot_stop)    
+#title = 'Validation_Example_w_axis_limits'
+#plt.savefig('{}.png'.format(title), dpi = 600)
+
+'''
+
+
+#---Save Figure
+#title = 'Validation_Example'
+#plt.savefig('{}.png'.format(title), dpi = 600)
+#plt.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
