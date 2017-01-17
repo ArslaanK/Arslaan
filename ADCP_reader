@@ -1,0 +1,16 @@
+import pandas as pd
+
+
+
+f = r'C:\Users\student.W7JF4Z7V1\Desktop\adcp1.txt'
+
+
+cols= [0,1,2,3,4,5,6,7,8]
+
+df = pd.read_csv(f,sep ='\t',header=None,usecols=cols)
+df.columns = ['CELL','ProfileNo','Count','Month','Date','Year','Hours','Mins','Readings']
+
+
+df.groupby(['Hours','Mins'])
+
+df.head()
