@@ -1,16 +1,60 @@
+
 import pandas as pd
-
-
+import numpy as np
+import datetime as dt
 
 f = r'C:\Users\student.W7JF4Z7V1\Desktop\adcp1.txt'
 
 
 cols= [0,1,2,3,4,5,6,7,8]
+#types = ['str', 'str','int', 'str', 'str', 'str', 'str', 'str', 'float']
 
-df = pd.read_csv(f,sep ='\t',header=None,usecols=cols)
-df.columns = ['CELL','ProfileNo','Count','Month','Date','Year','Hours','Mins','Readings']
+df = pd.read_csv(f,sep ='\t',header=None,index_col= [0],usecols=cols)
+
+df.columns = ['ProfileNo','Count','month','day','year','hour','minute','Reading']
+
+df['datetime'] = df['month'].astype(str) +'/'+ df['day'].astype(str)+'/' + df['year'].astype(str) +' '+ df['hour'].astype(str)+':'+df['minute'].astype(str)
+
+# converting datetime object to pd date time format-----------------
+
+df['datetime'] = pd.to_datetime(df.datetime)
+
+# droping colmns in dataframe-------------------
+
+df.drop(['month','day','year','minute','Count','hour'],axis=1,inplace=True)
+
+#grouping timeseries by timestamps----------------------
+
+x = list(df.groupby('datetime'))
 
 
-df.groupby(['Hours','Mins'])
+x[0]
 
+ts = 0
+# looping for creating time series for the ADCP data------------------
+
+meanList = [] 
+for i in range(0, 3342):
+    ts = x[i]
+    a = ts[1]
+
+    mean = a["Reading"].mean()
+    meanList.append(float(mean))
+    
+df = pd.DataFrame(meanList)
 df.head()
+
+df = df.rename(columns = {0:'readingss'})
+
+idx =  pd.date_range('09/24/2015 12:00:00','10/17/2015 16:50:00',freq='10Min')
+df = df.set_index(idx)   
+
+#resampling for every hour--------------------------------
+
+samp = df.resample('H').mean()
+
+#ploting------------------------------------------------------
+
+
+df.plot()
+
