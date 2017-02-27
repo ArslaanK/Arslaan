@@ -1,0 +1,88 @@
+
+
+#------insert data frame ----------------
+
+df_adcirc = adcircx.merge(df,left_index=True, right_index=True)
+
+
+
+#----------------defininf variables------------------
+
+x = adcircx.index
+
+
+y1,y2 = df_adcirc['BH_NOAA'] , df_adcirc['BH_Adcirc']
+
+y3,y4 = df_adcirc['AN_NOAA'] , df_adcirc['AN_Adcirc']
+
+y5,y6 = df_adcirc['So_NOAA'] , df_adcirc['So_Adcirc']
+
+y7,y8 = df_adcirc['WA_NOAA'] , df_adcirc['WA_Adcirc']
+
+y9,y10 = df_adcirc['SwP_NOAA'] , df_adcirc['SwP_Adcirc']
+
+y11,y12 = df_adcirc['CBBT_NOAA'] , df_adcirc['CBBT_Adcirc']
+
+y13,y14 = df_adcirc['WiP_NOAA'] , df_adcirc['WiP_Adcirc']
+
+
+#----------define multiple rows plotting function-------------------
+
+f, (ax1,ax2,ax3,ax4,ax5,ax6,ax7) = plt.subplots(7, sharex=True, sharey=True,)
+
+#------------plot code------------------------
+
+
+ax1.plot(x, y1, color='b')
+ax1.plot(x, y2, color='r')
+ax1.set_title('NOAA Station: {}, ADCIRC Station: {}'.format(y1.name, y2.name))
+
+plt.ylabel('Water Levels(m)', fontweight='bold')
+plt.xlabel('Date Time', fontweight='bold')
+
+ax2.plot(x, y3,color='b')
+ax2.plot(x, y4,color='r')
+ax2.set_title('NOAA Station: {}, ADCIRC Station: {}'.format(y3.name, y4.name))
+
+
+plt.ylabel('Water Levels(m)', fontweight='bold')
+plt.xlabel('Date Time', fontweight='bold')
+
+
+ax3.plot(x, y5,color='b')
+ax3.plot(x, y6,color='r')
+ax3.set_title('NOAA Station: {}, ADCIRC Station: {}'.format(y5.name, y6.name))
+
+ax4.plot(x, y7,color='b')
+ax4.plot(x, y8,color='r')
+ax4.set_title('NOAA Station: {}, ADCIRC Station: {}'.format(y7.name, y8.name))
+
+ax5.plot(x, y9,color='b')
+ax5.plot(x, y10,color='r')
+ax5.set_title('NOAA Station: {}, ADCIRC Station: {}'.format(y9.name, y10.name))
+
+ax6.plot(x, y11,color='b')
+ax6.plot(x, y12,color='r')
+ax6.set_title('NOAA Station: {}, ADCIRC Station: {}'.format(y11.name, y12.name))
+
+ax7.plot(x, y13,color='b')
+ax7.plot(x, y14,color='r')
+ax7.set_title('NOAA Station: {}, ADCIRC Station: {}'.format(y13.name, y14.name))
+
+
+
+#-------------- date and legend formating--------------
+
+plt.xlabel('Date Time', fontweight='bold')
+plt.ylabel('Stage (ft)', fontweight='bold')
+
+
+
+plt.grid(True)
+plt.gca().xaxis.set_major_formatter(DateFormatter('%b %d %H:%M'))
+plt.gca().xaxis.set_major_locator(HourLocator(np.arange(0, 25, 12)))
+
+plt.gcf().autofmt_xdate()
+
+plt.legend(loc='best')
+
