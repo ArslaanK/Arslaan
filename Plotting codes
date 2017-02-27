@@ -1,5 +1,8 @@
 
 
+------------------------------------------------------------TYPE 1 ---------------------------
+
+
 #------insert data frame ----------------
 
 df_adcirc = adcircx.merge(df,left_index=True, right_index=True)
@@ -85,4 +88,69 @@ plt.gca().xaxis.set_major_locator(HourLocator(np.arange(0, 25, 12)))
 plt.gcf().autofmt_xdate()
 
 plt.legend(loc='best')
+
+
+
+------------------------------------------------------------TYPE 2 ---------------------------
+
+fig1 = plt.figure()
+#fig2 = plt.figure()
+
+
+ax1 = fig1.add_subplot(421)
+ax2 = fig1.add_subplot(422)
+ax3 = fig1.add_subplot(423)
+ax4 = fig1.add_subplot(424)
+
+
+ax5 = fig1.add_subplot(425)
+ax6 = fig1.add_subplot(426)
+ax7 = fig1.add_subplot(427)
+
+ax1.legend(loc="best")
+ax2.legend(loc="best")
+ax3.legend(loc="best")
+ax4.legend(loc="best")
+ax5.legend(loc="best")
+ax6.legend(loc="best")
+ax7.legend(loc="best")
+
+#------------plot code------------------------
+
+
+ax1.plot(x, y1, color='b')
+ax1.plot(x, y2, color='r')
+ax1.set_title('NOAA Station: {}, ADCIRC Station: {}'.format(y1.name, y2.name))
+
+plt.ylabel('Water Levels(m)', fontweight='bold')
+plt.xlabel('Date Time', fontweight='bold')
+
+ax2.plot(x, y3,color='b')
+ax2.plot(x, y4,color='r')
+ax2.set_title('NOAA Station: {}, ADCIRC Station: {}'.format(y3.name, y4.name))
+
+
+plt.ylabel('Water Levels(m)', fontweight='bold')
+plt.xlabel('Date Time', fontweight='bold')
+
+
+ax3.plot(x, y5,color='b')
+ax3.plot(x, y6,color='r')
+ax3.set_title('NOAA Station: {}, ADCIRC Station: {}'.format(y5.name, y6.name))
+
+ax4.plot(x, y7,color='b')
+ax4.plot(x, y8,color='r')
+ax4.set_title('NOAA Station: {}, ADCIRC Station: {}'.format(y7.name, y8.name))
+
+ax5.plot(x, y9,color='b')
+ax5.plot(x, y10,color='r')
+ax5.set_title('NOAA Station: {}, ADCIRC Station: {}'.format(y9.name, y10.name))
+
+ax6.plot(x, y11,color='b')
+ax6.plot(x, y12,color='r')
+ax6.set_title('NOAA Station: {}, ADCIRC Station: {}'.format(y11.name, y12.name))
+
+ax7.plot(x, y13,color='b')
+ax7.plot(x, y14,color='r')
+ax7.set_title('NOAA Station: {}, ADCIRC Station: {}'.format(y13.name, y14.name))
 
