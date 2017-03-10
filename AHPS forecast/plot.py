@@ -22,7 +22,9 @@ from datetime import datetime, timezone, timedelta
 fort22 = r'C:\Users\student.W7JF4Z7V1\Desktop\dfdf\fort.221'
 plotdir = r'C:\Users\student.W7JF4Z7V1\Desktop\dfdf'
 fort61 = r'C:\Users\student.W7JF4Z7V1\Desktop\dfdf\WLFort63.txt'
-f = r'C:\Users\student.W7JF4Z7V1\Desktop\dfdf\Output'
+#defining path for Outputfile
+f = r'C:\Users\student.W7JF4Z7V1\Desktop\dfdf\Output.txt'
+
 frequency = '3600s'
 
 #--Stations data
@@ -59,7 +61,7 @@ adcirc_data   = adcirc_data.query('value >= -1000')
 
 
 for s in stations:
-    df_fcst.to_csv(f,sep='\t')  
+      
     plt.interactive(False)  
     
     #--ADCIRC DATA Block   
@@ -130,10 +132,11 @@ for s in stations:
         df_fcst['Stage'] = df_fcst['Stage'].astype(str).str[:-2].astype(np.float)
         df_fcst = df_fcst.set_index(df_fcst['Date(UTC)'] )
         
-       
+        # HERE IT GETS THE DATAFRAME READY FOR EACH STATION
+        # I AM TRYING THIS, IT YIELDS AN OUTPUT FILE IN THE DIRECTORY 
         
-              
-        
+        df_fcst.to_csv(f,sep='\t')
+
         #start, stop = df_obs.index[0], df_fcst.index[-1]
         
         
